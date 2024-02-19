@@ -2,16 +2,16 @@
   "name": "universal-resume-template",
   "version": "3.1.1",
   "description": "Minimal and formal résumé (CV) website template for print, mobile, and desktop. https://bit.ly/ur_demo",
-  "homepage": "https://github.com/WebPraktikos/universal-resume",
+  "homepage": "",
   "repository": {
     "type": "git",
-    "url": "https://github.com/WebPraktikos/universal-resume.git"
+    "url": ""
   },
   "bugs": {
-    "url": "https://github.com/WebPraktikos/universal-resume/issues"
+    "url": ""
   },
-  "license": "NonCommercial-ShareAlike 1.0 Generic",
-  "author": "WebPraktikos <hi@webpraktikos.com>",
+  "license": "",
+  "author": "",
   "scripts": {
     "serve": "concurrently \"postcss ./tailwind.css -o docs/build.css --watch\"  \"live-server ./docs \"",
     "build": "cross-env NODE_ENV=build postcss ./tailwind.css -o ./docs/build.css"
